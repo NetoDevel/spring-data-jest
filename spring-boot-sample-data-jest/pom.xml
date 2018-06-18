@@ -16,6 +16,7 @@
 
     <properties>
         <main.basedir>${basedir}/../..</main.basedir>
+        <spring-data-releasetrain.version>Lovelace-RELEASE</spring-data-releasetrain.version>
     </properties>
 
     <dependencies>

@@ -6,7 +6,7 @@
 
     <!-- Elastic search test node -->
     <elasticsearch:node-client id="client" local="true" cluster-name="#{T(java.util.UUID).randomUUID().toString()}"
-                               http-enabled="true" path-data="target/elasticsearchTestData" path-home="src/test/resources/test-home-dir"
+                               path-data="target/elasticsearchTestData" path-home="src/test/resources/test-home-dir"
                                path-configuration="node-client-configuration.yml"/>
 
 
